@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contactme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <div class="container">
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country">State</label>
+    <select id="country" name="country">
+      <option value="choose state">Choose State</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="Bihar">Bihar</option>
+      <option value="Nepal">Nepal</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Outside">Outside State</option>
+    </select>
+    <label for="subject">Review For This Site</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit"><a>
+  </form>
+</div>
+  </body>
+</html>
